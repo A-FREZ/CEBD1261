@@ -1,26 +1,17 @@
 # CEBD1261
 # Concordia - Big Data Infrastructure.
 
-##  Week 4 Exercices:
-Instructions 
-Please send a .sc file via github. If you use Scala IDE, just save your .sc file and submit.
-If you didn’t reach that level (yet), copy text from your command line into a text file and  submit that via github.
-Note:  
-  ● My assumption was you are familiar with python to write the following codes.
-  You need some googling to do and have two weeks to submit your work.   ● Next session, I will go over them. 
 
+##  Week 6 Exercices:
+ 
 ##  Exercise 1 (Mandatory) 
-Define the following values: 
-● val x : Double = 42.354562  ● val y : Int = 3 
-Write required code in println command to print the following output: 
-● The round value of x is 42.35  ● The left zero padding version of y is 0003 
-Obviously 42.35 and 0003 should be computed.
+Submit three in-class exercises (4 .scala files).
 
 ##  Exercise 2 (Mandatory) 
-Write a function to compute factorial (5! = 5*4*3*2*1) 
-Then write another function to call fact function and println few examples (i.e, 6,8,4.52).  
-Your program should return NA if the input is not integer.  
+Develop a script (from scratch or expand on given examples) and do the following  steps: 
+1. Read insurance.csv file (uploaded in slack channel week6)  
+2. Print the size   
+3. Print sex and count of sex (use group by in sql)  
+4. Filter smoker=yes and print again the sex,count of sex  
+5. Group by region and sum the charges (in each region), then print rows by  descending order (with respect to sum)  
 
-##  Exercise 3 (Mandatory) 
-Repeat the previous exercise by accepting the double numbers into the factorial  function. 
-Convert them to integer before calling the fact function. 
